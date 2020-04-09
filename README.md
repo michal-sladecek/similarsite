@@ -1,10 +1,6 @@
-Similar site is my script to find sites which have same google analytics ids or adsense ids.
+Similar site is my script to find linked slovak websites. It uses multiple methods.
+The methods sometimes return too many false positives, so the script is made in a way which makes it very easy to filter out these false positives using grep.
 
-Having same id often means the website is owned by same organization or person, so this can aid in OSINT.
-
-There are many tools online which do same thing, but most have very poor coverage of slovak/czech websites.
-
-Usage:
 ```
-./similar_site.sh WEBSITE
+./similar_site.sh $website
 ```
